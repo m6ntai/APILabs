@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Калькулятор (Умножение)" Height="450" Width="600"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="Число A:" Margin="5" VerticalAlignment="Center"/>
+        <TextBox x:Name="TextBoxA" Grid.Row="0" Grid.Column="1" Margin="5" Padding="3" Text="10"/>
+
+
+        <Label Grid.Row="1" Grid.Column="0" Content="Число B:" Margin="5" VerticalAlignment="Center"/>
+        <TextBox x:Name="TextBoxB" Grid.Row="1" Grid.Column="1" Margin="5" Padding="3" Text="5"/>
+
+        <Button x:Name="CalculateButton" Grid.Row="2" Grid.Column="0" Content="Рассчитать" Margin="5" Padding="10,5" Click="CalculateButton_Click"/>
+        <TextBox x:Name="ResultTextBox" Grid.Row="2" Grid.Column="1" Margin="5" Padding="3" IsReadOnly="True" Text="Ждем ввода..."/>
+
+        <Button x:Name="HistoryButton" Grid.Row="3" Grid.Column="0" Content="Показать историю" Margin="5" Padding="10,5" Click="HistoryButton_Click"/>
+
+        
+        <DataGrid x:Name="HistoryDataGrid" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Margin="5" AutoGenerateColumns="True" IsReadOnly="True"/>
+    </Grid>
+</Window>

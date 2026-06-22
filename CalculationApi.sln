@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationApi", "CalculationApi\CalculationApi.csproj", "{420172F0-3A5E-428A-9AE1-DA4A38372B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalculator", "WpfCalculator\WpfCalculator.csproj", "{5C2FEF18-3301-4EC5-BB05-E30BF6AC6471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{420172F0-3A5E-428A-9AE1-DA4A38372B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420172F0-3A5E-428A-9AE1-DA4A38372B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420172F0-3A5E-428A-9AE1-DA4A38372B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420172F0-3A5E-428A-9AE1-DA4A38372B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C2FEF18-3301-4EC5-BB05-E30BF6AC6471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2FEF18-3301-4EC5-BB05-E30BF6AC6471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2FEF18-3301-4EC5-BB05-E30BF6AC6471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2FEF18-3301-4EC5-BB05-E30BF6AC6471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA49E6BB-1696-4FED-AD53-BEB3FF919F67}
+	EndGlobalSection
+EndGlobal
